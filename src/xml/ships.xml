@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Properties for base game ships
-
-Think a ship is too weak or powerful? Edit properties to your liking!
-
-Setting a ship's default health value to 0 will cause it to
- be instantly destroyed when spawned.
+XML example. Used by xmlReader.java
 -->
 <data>
     <ship>
