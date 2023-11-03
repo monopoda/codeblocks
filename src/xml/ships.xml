@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Properties for base game ships
+
+Think a ship is too weak or powerful? Edit properties to your liking!
+
+Setting a ship's default health value to 0 will cause it to
+ be instantly destroyed when spawned.
+-->
+<data>
+    <ship>
+        <class>Frontier</class>
+        <health>100</health>
+        <speed>5</speed>
+        <turretSlots>2</turretSlots>
+        <cargoSpace>20</cargoSpace>
+        <crewSpace>4</crewSpace>
+    </ship>
+    <ship>
+        <class>Voyager</class>
+        <health>70</health>
+        <speed>10</speed>
+        <turretSlots>1</turretSlots>
+        <cargoSpace>30</cargoSpace>
+        <crewSpace>2</crewSpace>
+    </ship>
+    <ship>
+        <class>Tick</class>
+        <health>50</health>
+        <speed>6</speed>
+        <turretSlots>1</turretSlots>
+        <cargoSpace>0</cargoSpace>
+        <crewSpace>1</crewSpace>
+    </ship>
+    <ship>
+        <class>Winter</class>
+        <health>110</health>
+        <speed>7</speed>
+        <turretSlots>3</turretSlots>
+        <cargoSpace>20</cargoSpace>
+        <crewSpace>8</crewSpace>
+    </ship>
+</data>
