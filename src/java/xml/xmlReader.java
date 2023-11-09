@@ -1,4 +1,4 @@
-package xml;
+package java.xml;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -12,7 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 /**
- * An example XML reader. It reads the ships.xml file, and outputs the text content of
+ * An example XML reader. It reads the ships.java.xml file, and outputs the text content of
  * each node nested in each ship node. This was made for a game which uses XML files
  * as data for ship properties.
  *
@@ -25,7 +25,7 @@ public class xmlReader {
 
         try {
             DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse("src/xml/ships.xml");
+            Document doc = builder.parse("src/java.xml/ships.java.xml");
             NodeList shipList = doc.getElementsByTagName("ship");
             for (int i = 0; i < shipList.getLength(); i++) {
                 Node s = shipList.item(i);
